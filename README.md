@@ -66,3 +66,30 @@ $ xcode-select --install # Install Xcode Command Line Tools
 * [Cornerstone](https://cornerstone.assembla.com/) 💰
 * [The Archive Browser](https://theunarchiver.com/archive-browser) 💰
 * [Texpad](https://www.texpad.com/) 💰
+
+## Git global configuration
+
+### gitignore
+
+```sh
+$ echo ".DS_Store" >> ~/.gitignore_global
+```
+
+### gitconfig
+
+Create a git config file:
+
+```sh
+$ touch ~/.gitconfig
+```
+
+And write in it:
+
+```
+[user]
+        name = <Full Name>
+        email = <Email Address>
+[core]
+        excludesfile = ~/.gitignore_global
+        editor = <emacs -ne || subl -w || slap>
+```
