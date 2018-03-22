@@ -121,7 +121,7 @@ Host github.com
 # Private Enterprise GitLab server
 Host <gitlab.company.com>
  RSAAuthentication yes
- IdentityFile ~/.ssh/config/id_rsa_gitlab_<company_name>
+ IdentityFile ~/.ssh/id_rsa_gitlab_<company_name>
 ```
 
 ### Generate and add SSH keys
