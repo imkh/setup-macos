@@ -2,6 +2,13 @@
 
 Personal setup for a new macOS install.
 
+## Install the Xcode Command Line Tools
+
+```sh
+$ xcode-select -p # Check if the full Xcode package is already installed
+$ xcode-select --install # Install Xcode Command Line Tools
+```
+
 ## Essential Apps
 
 * [1Password](https://1password.com/) 💰
