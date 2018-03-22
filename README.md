@@ -11,7 +11,7 @@ $ xcode-select --install # Install Xcode Command Line Tools
 
 ## Essential Apps
 
-| Name             | Description   | Paid? | Settings |
+| Name | Description | Paid? | Settings |
 | ---------------- | ------------- |:-----:|:--------:|
 | [1Password](https://1password.com/) | Password manager. | 💰 | [Yes](./settings/1password) |
 | [Google Chrome](https://www.google.com/chrome/) | Web browser.  |   | [Yes](./chrome/1password) |
