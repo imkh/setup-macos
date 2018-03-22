@@ -11,17 +11,19 @@ $ xcode-select --install # Install Xcode Command Line Tools
 
 ## Essential Apps
 
-* [1Password](https://1password.com/) 💰
-* [Google Chrome](https://www.google.com/chrome/)
-* [Microsoft Office](https://www.office.com)
-* [Slack](https://www.slack.com)
-* [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
-* [Spark](https://itunes.apple.com/us/app/spark-love-your-email-again/id1176895641?mt=12)
-* [Fantastical 2](https://flexibits.com/fantastical) 💰
-* [Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12) 💰
-* [Google Play Music Desktop Player](https://www.googleplaymusicdesktopplayer.com/)
-* [OneDrive](https://itunes.apple.com/us/app/onedrive/id823766827?mt=12)
-* [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/)
+| Name             | Description   | Paid? | Settings |
+| ---------------- | ------------- |:-----:|:--------:|
+| [1Password](https://1password.com/) | Password manager. | 💰 | [Yes](./settings/1password) |
+| [Google Chrome](https://www.google.com/chrome/) | Web browser.  |   | [Yes](./chrome/1password) |
+| [Microsoft Office](https://www.office.com) | Office productivity suite. |   |   |
+| [Slack](https://www.slack.com) | Team communication app. |   |   |
+| [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) | Web browser. |   |   |
+| [Spark](https://itunes.apple.com/us/app/spark-love-your-email-again/id1176895641?mt=12) | Desktop email client. |   | [Yes](./settings/spark) |
+| [Fantastical 2](https://flexibits.com/fantastical) | Desktop calendar client. | 💰 | [Yes](./settings/fantastical2) |
+| [Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12) | Window manager. | 💰 |          |
+| [Google Play Music Desktop Player](https://www.googleplaymusicdesktopplayer.com/) | Google Play Music desktop client. |   | [Yes](./settings/gpmdp) |
+| [OneDrive](https://itunes.apple.com/us/app/onedrive/id823766827?mt=12) | OneDrive syncing. |   |   |
+| [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/) | Google Drive syncing. |   |   |
 
 ## Development Tools
 
