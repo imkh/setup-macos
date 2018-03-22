@@ -93,3 +93,45 @@ And write in it:
         excludesfile = ~/.gitignore_global
         editor = <emacs -ne || subl -w || slap>
 ```
+
+## Set up Git SSH Keys
+
+### Official documentation
+
+* [GitHub](https://help.github.com/articles/connecting-to-github-with-ssh/)
+* [GitLab](https://docs.gitlab.com/ee/ssh/README.html)
+
+### Initial configuration
+
+Create a SSH config file:
+
+```sh
+$ touch ~/.ssh/config
+```
+
+And write in it:
+
+```
+# GitHub.com server
+Host github.com
+ AddKeysToAgent yes
+ UseKeychain yes
+ IdentityFile ~/.ssh/id_rsa
+
+# Private Enterprise GitLab server
+Host <gitlab.company.com>
+ RSAAuthentication yes
+ IdentityFile ~/.ssh/config/id_rsa_gitlab_<company_name>
+```
+
+### Generate and add SSH keys
+
+```sh
+$ ls -al ~/.ssh # Lists the files in your .ssh directory, if they exist
+$ ssh-keygen -t rsa -b 4096 -C "email@domain.com" # Generate a new SSH key
+$ pbcopy < ~/.ssh/id_rsa.pub # Copies the contents of the id_rsa.pub file to your clipboard
+```
+
+Then paste the content of the clipboard in:
+* `Settings > SSH and GPG keys > New SSH key` for [*GitHub*](https://github.com/settings/ssh/new).
+* `Settings > SSH Keys > New SSH key` for *GitLab*.
