@@ -31,7 +31,7 @@ $ xcode-select --install # Install Xcode Command Line Tools
 | ---------------- | ------------- |:-----:|:--------:|
 | [Tower](https://www.git-tower.com/) | Git desktop client. | 💰 | [Yes](./settings/tower) |
 | [Kaleidoscope](https://www.kaleidoscopeapp.com/) | File comparison app (diff tool). | 💰 |  |
-| [Paw](https://paw.cloud/) | Full-featured HTTP client for APIs development (similar to Postman). | 💰 | [Yes](./settings/paw) |
+| [Paw](https://paw.cloud/) | Full-featured HTTP client for API development (similar to Postman). | 💰 | [Yes](./settings/paw) |
 | [iTerm2](https://www.iterm2.com/) | Terminal emulator for macOS. | | [Yes](./settings/iterm2) |
 | [Hyper](http://hyper.is/) | JS/HTML/CSS Terminal. | | [Yes](./settings/hyper) |
 | [Visual Studio Code](https://code.visualstudio.com/) | Source code editor. | | [Yes](./settings/vscode) |
@@ -40,8 +40,8 @@ $ xcode-select --install # Install Xcode Command Line Tools
 | [Android Studio](https://developer.android.com/studio/index.html) | Official IDE for Android development. | | [Yes](./settings/androidstudio) |
 | [Docker](https://www.docker.com/) | Create, deploy, and run applications by using containers. | | [Yes](./settings/docker) |
 | [Sequel Pro](https://www.sequelpro.com/) | MySQL database management tool. | 💰 | |
-| [Robo 3T](https://robomongo.org/) | MongoDB management tool. | | |
-| [DB Browser for SQLite](http://sqlitebrowser.org/) | SQLite management tool. | | |
+| [Robo 3T](https://robomongo.org/) | MongoDB database management tool. | | |
+| [DB Browser for SQLite](http://sqlitebrowser.org/) | SQLite database management tool. | | |
 
 ## Useful Apps
 
@@ -52,7 +52,7 @@ $ xcode-select --install # Install Xcode Command Line Tools
 | [Tweetbot](https://itunes.apple.com/us/app/tweetbot-for-twitter/id557168941?mt=12) | Twitter desktop client. | 💰 | |
 | [Skype](https://www.skype.com/en/) | Voice & text chat app. | | |
 | [Discord](https://discordapp.com/) | Voice & text chat app for gaming communities. | | |
-| [Reflector](http://www.airsquirrels.com/reflector/) | Android & iOS screen mirroring. | 💰 | |
+| [Reflector](http://www.airsquirrels.com/reflector/) | Android & iOS wireless screen mirroring. | 💰 | |
 | [Tuxera](https://www.tuxera.com/products/tuxera-ntfs-for-mac/) | NTFS drives read and write support. | 💰 | |
 | [Gifox](https://gifox.io/) | GIF recording and sharing. | 💰 | |
 | [TunnelBear](https://www.tunnelbear.com/) | Secure VPN service. | 💰 | |
