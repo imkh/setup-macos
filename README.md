@@ -9,6 +9,18 @@ $ xcode-select -p # Check if the full Xcode package is already installed
 $ xcode-select --install # Install Xcode Command Line Tools
 ```
 
+## Install Homebrew
+
+```sh
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+## Install Node.js and npm
+
+```sh
+$ brew install node
+```
+
 ## Essential Apps
 
 | Name | Description | Paid? | Settings |
