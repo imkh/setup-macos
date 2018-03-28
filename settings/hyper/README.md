@@ -21,7 +21,7 @@ plugins: [
 ],
 ```
 
-## [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy)
+### [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy)
 
 Elegant Hyper theme with bright colors.
 
@@ -31,7 +31,7 @@ plugins: [
 ],
 ```
 
-## [hyper-chesterish](https://github.com/henrikdahl/hyper-chesterish)
+### [hyper-chesterish](https://github.com/henrikdahl/hyper-chesterish)
 
 Chesterish Theme for Hyper based on Jupyter schemes.
 
