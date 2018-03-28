@@ -11,6 +11,8 @@ windowSize: [1280, 720],
 
 ## Themes
 
+Choose only one theme from this list.
+
 ### [hyper-vibrant](https://github.com/nachoaIvarez/hyper-vibrant)
 
 Snazzy inspired hyper theme using the macOS Vibrancy API.
@@ -45,7 +47,7 @@ plugins: [
 
 ### [hypercwd](https://github.com/hharnisc/hypercwd)
 
-Opens new tabs with the same directory as the current tab.
+Opens new tabs in the same directory as the current tab.
 
 ```js
 plugins: [
@@ -65,7 +67,7 @@ plugins: [
 
 ### [hyperborder](https://github.com/webmatze/hyperborder)
 
-Adds a gradient border just like the icon.
+Adds a gradient border just like in the icon.
 
 ```js
 plugins: [
