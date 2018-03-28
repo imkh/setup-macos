@@ -153,7 +153,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ### gitignore
 
 ```sh
-$ echo ".DS_Store" >> ~/.gitignore_global
+$ curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore_global
 ```
 
 ### gitconfig
