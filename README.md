@@ -60,7 +60,7 @@ $ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins
 $ open ~/.zshrc
 ```
 
-And add `plugins=(zsh-autosuggestions)`, like this:
+And add `zsh-autosuggestions` as a plugin in `~/.zshrc`, like this:
 
 ```
 plugins=(
