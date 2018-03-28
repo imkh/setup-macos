@@ -23,7 +23,7 @@ $ brew install node
 
 ## Install and set up Zsh
 
-More information on this [wiki page from Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) and this [gist ``](https://gist.github.com/kevin-smets/8568070).
+More information on this [wiki page from Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) and this [gist](https://gist.github.com/kevin-smets/8568070).
 
 ### Check if zsh is already installed
 
