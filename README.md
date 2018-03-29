@@ -36,9 +36,9 @@ $ echo $SHELL # Expected result should be usr/bin/zsh or /bin/zsh
 
 ```sh
 $ brew install zsh zsh-completions # Install zsh
-$ zsh --version
+$ zsh --version # Should be zsh 5.0 or more recent
 $ chsh -s $(which zsh) # Make zsh the default shell
-$ echo $SHELL
+$ echo $SHELL # Expected result should be usr/bin/zsh or /bin/zsh
 ```
 
 ### Install Oh-My-Zsh
@@ -47,17 +47,22 @@ $ echo $SHELL
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-### Add personal custom theme & prompt
+### Set personal custom theme & prompt
 
 ```sh
-$ curl https://gist.githubusercontent.com/imkh/db581924555a3a69f6be658a4c42d7bb/raw/d38d501bd9c9e60299d8fd96ac075873a8eacf44/refined-imkh --create-dirs -o ~/.oh-my-zsh/custom/themes/refined-imkh.zsh-theme
+$ curl https://gist.githubusercontent.com/imkh/db581924555a3a69f6be658a4c42d7bb/raw/d38d501bd9c9e60299d8fd96ac075873a8eacf44/refined-imkh --create-dirs -o $ZSH_CUSTOM/themes/refined-imkh.zsh-theme
+```
+
+And in `~/.zshrc`:
+
+```
+ZSH_THEME="refined-imkh"
 ```
 
 ### Add zsh-autosuggestions
 
 ```sh
 $ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-$ open ~/.zshrc
 ```
 
 And add `zsh-autosuggestions` as a plugin in `~/.zshrc`, like this:
