@@ -14,13 +14,6 @@ $ xcode-select --install # Install Xcode Command Line Tools
 ```sh
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-
-## Install Node.js and npm
-
-```sh
-$ brew install node
-```
-
 ## Install and set up Zsh
 
 More information on this [wiki page from Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) and this [gist](https://gist.github.com/kevin-smets/8568070).
@@ -83,6 +76,32 @@ And add this to the end of the `~/.zshrc` file:
 
 ```
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+
+## Install Node.js and npm
+
+```sh
+$ brew install node
+```
+
+## Install MySQL
+
+```sh
+$ brew install mysql # Install MySQL
+$ brew services list # List the Homebrew services
+$ brew services start mysql # Start the MySQL service
+$ mysql -uroot -p # Start a MySQL shell
+$ mysqladmin -u root password 'yourpassword' # Change root password
+```
+
+## Install MongoDB
+
+```sh
+$ brew install mongodb # Install MongoDB
+$ mkdir -p /data/db # Create the data directory
+$ brew services list # List the Homebrew services
+$ brew services start [service] # Start the MongoDB service
+$ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
 ```
 
 ## Essential Apps
