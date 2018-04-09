@@ -72,7 +72,7 @@ plugins=(
 $ brew install zsh-syntax-highlighting
 ```
 
-And add this to the end of the `~/.zshrc` file:
+And add this __**to the end**__ of the `~/.zshrc` file:
 
 ```
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
