@@ -22,7 +22,7 @@ More information on this [wiki page from Oh-My-Zsh](https://github.com/robbyruss
 
 ```sh
 $ zsh --version # If installed, should be zsh 5.0 or more recent
-$ echo $SHELL # Expected result should be usr/bin/zsh or /bin/zsh
+$ echo $SHELL # Expected result should be /usr/bin/zsh or /bin/zsh
 ```
 
 ### Install zsh and make it the default shell
@@ -72,7 +72,7 @@ plugins=(
 $ brew install zsh-syntax-highlighting
 ```
 
-And add this to the end of the `~/.zshrc` file:
+And add this __**to the end**__ of the `~/.zshrc` file:
 
 ```
 # Add to end of the ~/.zshrc file
@@ -115,7 +115,7 @@ $ mysqladmin -u root password 'yourpassword' # Change root password
 $ brew install mongodb # Install MongoDB
 $ mkdir -p /data/db # Create the data directory
 $ brew services list # List the Homebrew services
-$ brew services start [service] # Start the MongoDB service
+$ brew services start mongodb # Start the MongoDB service
 $ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
 ```
 
@@ -185,7 +185,7 @@ $ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
 | [Parallels](https://www.parallels.com/) | Mac & Windows virtualization. | 💰 |  |
 | [Cornerstone](https://cornerstone.assembla.com/) | SVN client for macOS. | 💰 |  |
 | [The Archive Browser](https://theunarchiver.com/archive-browser) | Browser for archive type files (zip, rar, 7-zip, tar, etc). | 💰 |  |
-| [Texpad](https://www.texpad.com/) | LaTeX editor. | 💰 |  |
+| [Texpad](https://www.texpad.com/osx) | LaTeX editor. | 💰 |  |
 
 ## Git global configuration
 
@@ -211,7 +211,7 @@ And write in it:
         email = <Email Address>
 [core]
         excludesfile = ~/.gitignore_global
-        editor = <emacs -ne || subl -w || slap>
+        editor = <emacs -ne OR code OR subl -w OR slap>
 ```
 
 ## Set up Git SSH Keys
