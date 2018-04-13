@@ -75,7 +75,22 @@ $ brew install zsh-syntax-highlighting
 And add this to the end of the `~/.zshrc` file:
 
 ```
+# Add to end of the ~/.zshrc file
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+
+## Install GNU ls for better ls colors
+
+_GNU dircolors_ allows to use different colors theme when typing `ls` in the terminal. More information [here](https://github.com/seebi/dircolors-solarized) (make sure to read the quick note for macOS).
+
+```sh
+$ brew install coreutils
+```
+
+And add this alias in the `~/.zshrc` file:
+
+```
+alias ls="gls --color=auto"
 ```
 
 ## Install Node.js and npm
