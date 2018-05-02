@@ -30,6 +30,13 @@ Personal setup for a new macOS install.
   - [Official documentation](#official-documentation)
   - [Initial configuration](#initial-configuration)
   - [Generate and add SSH keys](#generate-and-add-ssh-keys)
+- [Set up GPG Keys to sign commits](#set-up-gpg-keys-to-sign-commits)
+  - [Official documentation](#official-documentation)
+  - [Install the GPG Suite](#install-the-gpg-Suite)
+  - [Generating a GPG key](#generating-a-gpg-key)
+  - [Add GPG keys to GitHub/GitLab account](#add-gpg-keys-to-github-gitlab-account)
+  - [Associating GPG keys with Git](#associating-gpg-keys-with-git)
+  - [Configuration for Tower.app](#configuration-for-tower.app)
 
 ## Install the Xcode Command Line Tools
 
@@ -284,5 +291,60 @@ $ pbcopy < ~/.ssh/id_rsa.pub # Copies the contents of the id_rsa.pub file to you
 ```
 
 Then paste the content of the clipboard in:
-- `Settings > SSH and GPG keys > New SSH key` for [*GitHub*](https://github.com/settings/ssh/new).
-- `Settings > SSH Keys > New SSH key` for *GitLab*.
+
+- `Settings > SSH and GPG keys > New SSH key` for [**GitHub**](https://github.com/settings/ssh/new).
+- `Settings > SSH Keys` for [**GitLab**](https://gitlab.com/profile/keys).
+
+## Set up GPG Keys to sign commits
+
+### Official documentation
+
+- [GitHub](https://help.github.com/articles/signing-commits-using-gpg/)
+- [GitLab](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/)
+
+### Install the GPG Suite
+
+Download and install the GPG Suite from the [official website](https://gpgtools.org/).
+
+### Generating a GPG key
+
+```sh
+$ gpg --full-gen-key
+```
+
+And follow the instructions. Recommended value for RSA keys is 4096 bits long (highest value). Pick a strong password when asked and type it twice to confirm.
+
+### Add GPG keys to GitHub/GitLab account
+
+```sh
+$ gpg --list-secret-keys --keyid-format LONG <email_address>
+# Copy the GPG key ID that starts with 'sec' and after 'rsa4096/'
+$ gpg --armor --export <gpg_key_id> | pbcopy
+```
+
+Then paste the content of the clipboard in:
+
+- `Settings > SSH and GPG keys > New GPG key` for [**GitHub**](https://github.com/settings/gpg/new).
+- `Settings > GPG Keys` for [**GitLab**](https://gitlab.com/profile/gpg_keys).
+
+### Associating GPG keys with Git
+
+```sh
+$ gpg --list-secret-keys --keyid-format LONG <email_address>
+# Copy the GPG key ID that starts with 'sec' and after 'rsa4096/'
+$ cd ~/workspace/<your_git_project> # To associate GPG keys on a project-to-project basis rather than globally
+$ git config user.signingkey <gpg_key_id>
+$ git config commit.gpgsign true
+```
+
+### Configuration for Tower.app
+
+Some helpful links:
+- [Signing GitHub Commits](https://www.fabianehlert.com/post/signingcommits/)
+- [GPG and git on macOS](https://gist.github.com/danieleggert/b029d44d4a54b328c0bac65d46ba4c65)
+- [Sign your commits with Tower.app](https://stefanzweifel.io/posts/sign-your-commits-with-tower-app)
+
+```sh
+$ git config --global gpg.program /usr/local/MacGPG2/bin/gpg2
+$ echo no-tty >> ~/.gnupg/gpg.conf
+```
