@@ -2,6 +2,35 @@
 
 Personal setup for a new macOS install.
 
+## Table of Contents
+
+- [Install the Xcode Command Line Tools](#install-the-xcode-command-line-tools)
+- [Install Homebrew](#install-homebrew)
+- [Install and set up Zsh](#install-and-set-up-zsh)
+  - [Check if zsh is already installed](#check-if-zsh-is-already-installed)
+  - [Install zsh and make it the default shell](#install-zsh-and-make-it-the-default-shell)
+  - [Install Oh-My-Zsh](#install-oh-my-zsh)
+  - [Set personal custom theme & prompt](#set-personal-custom-theme--prompt)
+  - [Add zsh-autosuggestions](#add-zsh-autosuggestions)
+- [Add syntax highlighting](#add-syntax-highlighting)
+- [Install GNU ls for better ls colors](#install-gnu-ls-for-better-ls-colors)
+- [Install Node.js and npm](#install-nodejs-and-npm)
+- [Install MySQL](#install-mysql)
+- [Install MongoDB](#install-mongodb)
+- [Apps](#apps)
+  - [Essential Apps](#essential-apps)
+  - [Development Tools](#development-tools)
+  - [Useful Apps](#useful-apps)
+  - [Gaming Apps](#gaming-apps)
+  - [Other](#other)
+- [Git global configuration](#git-global-configuration)
+  - [gitignore](#gitignore)
+  - [gitconfig](#gitconfig)
+- [Set up Git SSH Keys](#set-up-git-ssh-keys)
+  - [Official documentation](#official-documentation)
+  - [Initial configuration](#initial-configuration)
+  - [Generate and add SSH keys](#generate-and-add-ssh-keys)
+
 ## Install the Xcode Command Line Tools
 
 ```sh
@@ -119,7 +148,9 @@ $ brew services start mongodb # Start the MongoDB service
 $ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
 ```
 
-## Essential Apps
+## Apps
+
+### Essential Apps
 
 | Name | Description | Paid? | Settings |
 | ---------------- | ------------- |:-----:|:--------:|
@@ -135,7 +166,7 @@ $ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
 | [OneDrive](https://itunes.apple.com/us/app/onedrive/id823766827?mt=12) | OneDrive syncing. |   |   |
 | [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/) | Google Drive syncing. |   |   |
 
-## Development Tools
+### Development Tools
 
 | Name | Description | Paid? | Settings |
 | ---------------- | ------------- |:-----:|:--------:|
@@ -153,7 +184,7 @@ $ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
 | [Robo 3T](https://robomongo.org/) | MongoDB database management tool. | | |
 | [DB Browser for SQLite](http://sqlitebrowser.org/) | SQLite database management tool. | | |
 
-## Useful Apps
+### Useful Apps
 
 | Name | Description | Paid? | Settings |
 | ---------------- | ------------- |:-----:|:--------:|
@@ -169,14 +200,14 @@ $ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
 | [Sip](https://sipapp.io/)  | Color picker for macOS. | 💰 | [Yes](./settings/sip) |
 | [TeamViewer](https://www.teamviewer.com/en/) | Remote control tool. | | |
 
-## Gaming Apps
+### Gaming Apps
 
 | Name | Description | Paid? | Settings |
 | ---------------- | ------------- |:-----:|:--------:|
 | [Steam](http://store.steampowered.com/) | Gaming digital distribution platform. | | |
 | [PS4 Remote Play](https://remoteplay.dl.playstation.net/remoteplay/lang/en/index.html) | Remote play for PlayStation 4. | | |
 
-## Other
+### Other
 
 | Name | Description | Paid? | Settings |
 | ---------------- | ------------- |:-----:|:--------:|
@@ -211,15 +242,15 @@ And write in it:
         email = <Email Address>
 [core]
         excludesfile = ~/.gitignore_global
-        editor = <emacs -ne OR code OR subl -w OR slap>
+        editor = emacs -ne
 ```
 
 ## Set up Git SSH Keys
 
 ### Official documentation
 
-* [GitHub](https://help.github.com/articles/connecting-to-github-with-ssh/)
-* [GitLab](https://docs.gitlab.com/ee/ssh/README.html)
+- [GitHub](https://help.github.com/articles/connecting-to-github-with-ssh/)
+- [GitLab](https://docs.gitlab.com/ee/ssh/README.html)
 
 ### Initial configuration
 
@@ -253,5 +284,5 @@ $ pbcopy < ~/.ssh/id_rsa.pub # Copies the contents of the id_rsa.pub file to you
 ```
 
 Then paste the content of the clipboard in:
-* `Settings > SSH and GPG keys > New SSH key` for [*GitHub*](https://github.com/settings/ssh/new).
-* `Settings > SSH Keys > New SSH key` for *GitLab*.
+- `Settings > SSH and GPG keys > New SSH key` for [*GitHub*](https://github.com/settings/ssh/new).
+- `Settings > SSH Keys > New SSH key` for *GitLab*.
