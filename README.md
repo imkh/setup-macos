@@ -98,7 +98,13 @@ And add `zsh-autosuggestions` as a plugin in `~/.zshrc`, like this:
 
 ```
 plugins=(
-  git zsh-autosuggestions
+    git
+    copyfile
+    docker
+    extract
+    npm
+    yarn
+    zsh-autosuggestions
 )
 ```
 
