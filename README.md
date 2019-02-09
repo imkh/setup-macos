@@ -121,6 +121,30 @@ And add this __**to the end**__ of the `~/.zshrc` file:
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
+### Set window & tab title to current directory
+
+In the `.zshrc` file:
+
+```sh
+DISABLE_AUTO_TITLE="true"
+
+function precmd () {
+  # window_title="\033]0;${PWD##*/}\007"
+  if [[ -n $SSH_CONNECTION ]]; then
+    window_title="\033]0;${USER}@${HOSTNAME%%.*}: ${PWD/#$HOME/~}\007"
+  else
+    window_title="\033]0;${PWD/#$HOME/~}\007"
+  fi
+  echo -ne "$window_title"
+}
+```
+
+More information here:
+
+- [setting terminal tab title](https://github.com/robbyrussell/oh-my-zsh/issues/5700)
+- [Set the title of the terminal window to the current directory](https://superuser.com/questions/79972/set-the-title-of-the-terminal-window-to-the-current-directory)
+- [Use PROMPT_COMMAND to set titles on iTerm tabs ](http://hints.macworld.com/article.php?story=20031015173932306)
+
 ## Install GNU ls for better ls colors
 
 _GNU dircolors_ allows to use different colors theme when typing `ls` in the terminal. More information [here](https://github.com/seebi/dircolors-solarized) (make sure to read the quick note for macOS).

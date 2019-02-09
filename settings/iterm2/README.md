@@ -38,6 +38,3 @@ To enable word jumps (option + → or ←) and word deletions (option + backspac
 
 - [Pretty iTerm2 with a modern titlebar 💄💅](https://www.felixjung.io/posts/pretty-iterm2-with-a-modern-titlebar/)
 - [Custom iTerm2 titlebar background colors](https://codematters.blog/custom-iterm2-titlebar-background-colors-a088c6f2ec60)
-- [setting terminal tab title](https://github.com/robbyrussell/oh-my-zsh/issues/5700)
-- [Set the title of the terminal window to the current directory](https://superuser.com/questions/79972/set-the-title-of-the-terminal-window-to-the-current-directory)
-- [Use PROMPT_COMMAND to set titles on iTerm tabs ](http://hints.macworld.com/article.php?story=20031015173932306)
