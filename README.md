@@ -228,7 +228,6 @@ $ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
 | [Cisco Webex Teams](https://www.webex.com/team-collaboration.html) | Team messaging app. | | |
 | [VLC](https://www.videolan.org/vlc/index.html) | Multimedia player. | | |
 | [Tweetbot](https://itunes.apple.com/us/app/tweetbot-for-twitter/id557168941?mt=12) | Twitter desktop client. | 💰 | |
-| [Skype](https://www.skype.com/en/) | Voice & text chat app. | | |
 | [Discord](https://discordapp.com/) | Voice & text chat app for gaming communities. | | |
 | [Reflector](http://www.airsquirrels.com/reflector/) | Android & iOS wireless screen mirroring. | 💰 | |
 | [Tuxera](https://www.tuxera.com/products/tuxera-ntfs-for-mac/) | NTFS drives read and write support. | 💰 | |
