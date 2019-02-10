@@ -1,2 +1,0 @@
-# 1Password Settings
-
