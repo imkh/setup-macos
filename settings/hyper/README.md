@@ -8,7 +8,7 @@ Open `~/.hyper.js`.
 
 ```js
 // The default width/height in pixels of a new window
-windowSize: [1280, 720],
+windowSize: [760, 480],
 ```
 
 ## Themes
