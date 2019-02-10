@@ -232,7 +232,7 @@ $ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
 | [Reflector](http://www.airsquirrels.com/reflector/) | Android & iOS wireless screen mirroring. | 💰 | |
 | [Tuxera](https://www.tuxera.com/products/tuxera-ntfs-for-mac/) | NTFS drives read and write support. | 💰 | |
 | [Gifox](https://gifox.io/) | GIF recording and sharing. | 💰 | |
-| [TunnelBear](https://www.tunnelbear.com/) | Secure VPN service. | 💰 | |
+| [Windscribe](https://windscribe.com/) | Free VPN and Ad Block. | | |
 | [Sip](https://sipapp.io/)  | Color picker for macOS. | 💰 | |
 | [TeamViewer](https://www.teamviewer.com/en/) | Remote control tool. | | |
 
