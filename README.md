@@ -235,6 +235,8 @@ $ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
 | [Gifox](https://gifox.io/) | GIF recording and sharing. | 💰 | |
 | [Windscribe](https://windscribe.com/) | Free VPN and Ad Block. | | |
 | [Sip](https://sipapp.io/)  | Color picker for macOS. | 💰 | |
+| [LiveHome 3D](https://www.livehome3d.com/) | Home and Interior Design Software | 💰 | |
+
 
 ### Gaming Apps
 
