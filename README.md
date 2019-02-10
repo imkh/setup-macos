@@ -225,7 +225,7 @@ $ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
 
 | Name | Description | Paid? | Settings |
 | ---------------- | ------------- |:-----:|:--------:|
-| [Cisco Spark](https://www.ciscospark.com/) | Team messaging app. | | |
+| [Cisco Webex Teams](https://www.webex.com/team-collaboration.html) | Team messaging app. | | |
 | [VLC](https://www.videolan.org/vlc/index.html) | Multimedia player. | | |
 | [Tweetbot](https://itunes.apple.com/us/app/tweetbot-for-twitter/id557168941?mt=12) | Twitter desktop client. | 💰 | |
 | [Skype](https://www.skype.com/en/) | Voice & text chat app. | | |
