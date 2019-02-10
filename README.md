@@ -238,6 +238,7 @@ $ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
 | [LiveHome 3D](https://www.livehome3d.com/) | Home and Interior Design Software | 💰 | |
 | [Ledger Live](https://www.ledger.com/pages/ledger-live) | Companion app for Ledger hardware wallet devices. | | |
 | [Notion](https://www.notion.so/) | The all-in-one workspace for your notes, tasks, wikis, and databases. | | |
+| [Paste](https://pasteapp.me/) | Cloud clipboard history & snippets manager. | 💰 | |
 
 ### Gaming Apps
 
