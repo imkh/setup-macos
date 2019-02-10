@@ -1,11 +1,13 @@
 # Hyper Settings
 
+![hyper](./hyper.png)
+
 Open `~/.hyper.js`.
 
 ## Default window size
 
 ```js
-// The default width/height in pixels of a new window 
+// The default width/height in pixels of a new window
 windowSize: [1280, 720],
 ```
 
