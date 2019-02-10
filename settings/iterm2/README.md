@@ -1,6 +1,6 @@
 # iTerm2 Settings
 
-![terminal](./terminal.png)
+![iterm2](./iterm2.png)
 
 ## Install iTerm2 nightly builds
 
