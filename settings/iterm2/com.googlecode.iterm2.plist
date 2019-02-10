@@ -899,13 +899,13 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>853 234 567 240 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>433 366 930 455 0 0 1680 1027 </string>
+	<string>597 517 814 486 0 0 1680 1027 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>127 443 592 584 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>415 304 850 490 0 0 1680 1027 </string>
+	<string>11 497 860 494 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>275 154 1130 745 0 0 1680 1027 </string>
+	<string>275 409 860 490 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2749,7 +2749,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>6B58912C-EEB6-4BD0-BB3B-3A65D50D623E</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>47</integer>
+	<integer>59</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3343,7 +3343,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-02-09T19:09:14Z</date>
+	<date>2019-02-10T19:36:12Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SeparateStatusBarsPerPane</key>
@@ -3364,6 +3364,10 @@
 	<integer>5</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
+	<key>TerminalMargin</key>
+	<integer>10</integer>
+	<key>TerminalVMargin</key>
+	<integer>2</integer>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1549749888</real>
 	<key>UseBorder</key>
