@@ -236,7 +236,7 @@ $ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
 | [Windscribe](https://windscribe.com/) | Free VPN and Ad Block. | | |
 | [Sip](https://sipapp.io/)  | Color picker for macOS. | 💰 | |
 | [LiveHome 3D](https://www.livehome3d.com/) | Home and Interior Design Software | 💰 | |
-
+| [Ledger Live](https://www.ledger.com/pages/ledger-live) | Companion app for Ledger hardware wallet devices. | | |
 
 ### Gaming Apps
 
