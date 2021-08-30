@@ -11,11 +11,14 @@ Personal setup for a new macOS install.
   - [Install zsh and make it the default shell](#install-zsh-and-make-it-the-default-shell)
   - [Install Oh-My-Zsh](#install-oh-my-zsh)
   - [Set personal custom theme & prompt](#set-personal-custom-theme--prompt)
-  - [Add zsh-autosuggestions](#add-zsh-autosuggestions)
-- [Add syntax highlighting](#add-syntax-highlighting)
+  - [Add syntax highlighting](#add-syntax-highlighting)
+  - [Set window & tab title to current directory](#set-window--tab-title-to-current-directory)
 - [Install GNU ls for better ls colors](#install-gnu-ls-for-better-ls-colors)
+- [Install Emacs](#install-emacs)
+- [Install Go](#install-go)
 - [Install Node.js and npm](#install-nodejs-and-npm)
 - [Install MySQL](#install-mysql)
+- [Install PostgreSQL](#install-postgresql)
 - [Install MongoDB](#install-mongodb)
 - [Apps](#apps)
   - [Essential Apps](#essential-apps)
@@ -47,8 +50,10 @@ $ xcode-select --install # Install Xcode Command Line Tools
 
 ## Install Homebrew
 
+Website: https://brew.sh
+
 ```sh
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 ## Install and set up Zsh
 
@@ -64,7 +69,7 @@ $ echo $SHELL # Expected result should be /usr/bin/zsh or /bin/zsh
 ### Install zsh and make it the default shell
 
 ```sh
-$ brew install zsh zsh-completions # Install zsh
+$ brew install zsh zsh-completions zsh-autosuggestions # Install zsh
 $ zsh --version # Should be zsh 5.0 or more recent
 $ chsh -s $(which zsh) # Make zsh the default shell
 $ echo $SHELL # Expected result should be usr/bin/zsh or /bin/zsh
@@ -86,26 +91,6 @@ And in `~/.zshrc`:
 
 ```
 ZSH_THEME="refined-imkh"
-```
-
-### Add zsh-autosuggestions
-
-```sh
-$ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-```
-
-And add `zsh-autosuggestions` as a plugin in `~/.zshrc`, like this:
-
-```
-plugins=(
-    git
-    copyfile
-    docker
-    extract
-    npm
-    yarn
-    zsh-autosuggestions
-)
 ```
 
 ### Add syntax highlighting
@@ -159,6 +144,18 @@ And add this alias in the `~/.zshrc` file:
 alias ls="gls --color=auto"
 ```
 
+## Install Emacs
+
+```sh
+$ brew install emacs
+```
+
+## Install Go
+
+```sh
+$ brew install go
+```
+
 ## Install Node.js and npm
 
 ```sh
@@ -175,14 +172,27 @@ $ mysql -uroot -p # Start a MySQL shell
 $ mysqladmin -u root password 'yourpassword' # Change root password
 ```
 
-## Install MongoDB
+## Install PostgreSQL
+
+Official guide: https://wiki.postgresql.org/wiki/Homebrew
 
 ```sh
-$ brew install mongodb # Install MongoDB
-$ mkdir -p /data/db # Create the data directory
+$ brew install postgresql # Install PostgreSQL
 $ brew services list # List the Homebrew services
-$ brew services start mongodb # Start the MongoDB service
-$ mongo --host 127.0.0.1:27017 # Start a MongoDB shell
+$ brew services start postgresql # Start the PostgreSQL service
+$ psql postgres # Start a PostgreSQL shell
+```
+
+## Install MongoDB
+
+Official guide: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+
+```sh
+$ brew tap mongodb/brew
+$ brew install mongodb-community@5.0 # Install MongoDB
+$ brew services list # List the Homebrew services
+$ brew services start mongodb-community@5.0 # Start the MongoDB service
+$ mongosh # Start a MongoDB shell
 ```
 
 ## Apps
@@ -269,21 +279,11 @@ $ curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gi
 
 ### gitconfig
 
-Create a git config file:
-
 ```sh
-$ touch ~/.gitconfig
-```
-
-And write in it:
-
-```
-[user]
-        name = <Full Name>
-        email = <Email Address>
-[core]
-        excludesfile = ~/.gitignore_global
-        editor = emacs -ne
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+$ git config --global core.editor emacs
+$ git config --global core.excludesfile ~/.gitignore_global
 ```
 
 ## Set up Git SSH Keys
@@ -366,7 +366,7 @@ Then paste the content of the clipboard in:
 ```sh
 $ gpg --list-secret-keys --keyid-format LONG <email_address>
 # Copy the GPG key ID that starts with 'sec' and after 'rsa4096/'
-$ cd ~/workspace/<your_git_project> # To associate GPG keys on a project-to-project basis rather than globally
+$ cd <your_git_project> # To associate GPG keys on a project-to-project basis rather than globally
 $ git config user.signingkey <gpg_key_id>
 $ git config commit.gpgsign true
 ```
