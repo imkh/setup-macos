@@ -24,8 +24,6 @@ Personal setup for a new macOS install.
   - [Essential Apps](#essential-apps)
   - [Development Tools](#development-tools)
   - [Useful Apps](#useful-apps)
-  - [Gaming Apps](#gaming-apps)
-  - [Other](#other)
 - [Git global configuration](#git-global-configuration)
   - [gitignore](#gitignore)
   - [gitconfig](#gitconfig)
@@ -203,15 +201,16 @@ $ mongosh # Start a MongoDB shell
 | ---------------- | ------------- |:-----:|:--------:|
 | [1Password](https://1password.com/) | Password manager. | 💰 | |
 | [Google Chrome](https://www.google.com/chrome/) | Web browser.  | | |
-| [Microsoft Office](https://www.office.com) | Office productivity suite. | | |
 | [Slack](https://www.slack.com) | Team communication app. | | |
-| [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) | Web browser. | | |
-| [Spark](https://itunes.apple.com/us/app/spark-love-your-email-again/id1176895641?mt=12) | Email desktop client. | | |
-| [Fantastical 2](https://flexibits.com/fantastical) | Calendar desktop client. | 💰 | |
-| [Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12) | Window manager. | 💰 | |
-| [Google Play Music Desktop Player](https://www.googleplaymusicdesktopplayer.com/) | Google Play Music desktop client. | | |
-| [OneDrive](https://itunes.apple.com/us/app/onedrive/id823766827?mt=12) | OneDrive syncing. | | |
-| [Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/) | Google Drive syncing. | | |
+| [Signal](https://signal.org) | Private messaging app. | | |
+| [Spotify](https://www.spotify.com/) | Spotify desktop app. | | |
+| [LyricsX](https://github.com/ddddxxx/LyricsX) | Synced lyrics app. | | |
+| [MusicHarbor](https://apps.apple.com/us/app/musicharbor-track-new-music/id1440405750) | New music release tracker. | 💰 | |
+| [Magnet](https://itunes.apple.com/us/app/magnet/id441258766) | Window manager. | 💰 | |
+| [Moom](https://manytricks.com/moom/) | Windows layout manager. | 💰 | |
+| [Wipr](https://apps.apple.com/us/app/wipr/id1320666476?mt=12 ) | Ad & tracker blocker for Safari.  | 💰 | |
+| [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) | Keep-awake app.  | | |
+| [Paste](https://pasteapp.me/) | Cloud clipboard history & snippets manager. | 💰 | |
 
 ### Development Tools
 
@@ -221,50 +220,33 @@ $ mongosh # Start a MongoDB shell
 | [Kaleidoscope](https://www.kaleidoscopeapp.com/) | File comparison app (diff tool). | 💰 | |
 | [Paw](https://paw.cloud/) | Full-featured HTTP client for API development (similar to Postman). | 💰 | |
 | [iTerm2](https://www.iterm2.com/) | Terminal emulator for macOS. | | [Yes](./settings/iterm2) |
-| [Hyper](http://hyper.is/) | JS/HTML/CSS Terminal. | | [Yes](./settings/hyper) |
 | [Visual Studio Code](https://code.visualstudio.com/) | Source code editor. | | [Yes](./settings/vscode) |
-| [Sublime Text](https://www.sublimetext.com/) | Source code editor. | | |
 | [Xcode](https://itunes.apple.com/fr/app/xcode/id497799835?l=en&mt=12) | Official IDE for macOS, iOS, watchOS, and tvOS development. | | |
 | [Android Studio](https://developer.android.com/studio/index.html) | Official IDE for Android development. | | |
 | [Docker](https://www.docker.com/) | Create, deploy, and run applications by using containers. | | |
 | [Sequel Pro](https://www.sequelpro.com/) | MySQL database management tool. | 💰 | |
+| [Postico](https://eggerapps.at/postico/) | PostgreSQL database management tool. | 💰 | |
 | [Robo 3T](https://robomongo.org/) | MongoDB database management tool. | | |
 | [DB Browser for SQLite](http://sqlitebrowser.org/) | SQLite database management tool. | | |
+| [Red](https://echodot.com/red/) | Redis database management tool. | | |
+| [Proxyman](https://proxyman.io) | Web Debugging Proxy app. | 💰 | |
 
 ### Useful Apps
 
 | Name | Description | Paid? | Settings |
 | ---------------- | ------------- |:-----:|:--------:|
 | [Pixelmator Pro](https://www.pixelmator.com/pro/) | Professional image editing tool. | 💰 | |
-| [Cisco Webex Teams](https://www.webex.com/team-collaboration.html) | Team messaging app. | | |
-| [VLC](https://www.videolan.org/vlc/index.html) | Multimedia player. | | |
-| [Tweetbot](https://itunes.apple.com/us/app/tweetbot-for-twitter/id557168941?mt=12) | Twitter desktop client. | 💰 | |
+| [Parallels](https://www.parallels.com/) | Mac & Windows virtualization. | 💰 | |
+| [IINA](https://iina.io) | Multimedia player. | | |
 | [Discord](https://discordapp.com/) | Voice & text chat app for gaming communities. | | |
 | [Reflector](http://www.airsquirrels.com/reflector/) | Android & iOS wireless screen mirroring. | 💰 | |
 | [Tuxera](https://www.tuxera.com/products/tuxera-ntfs-for-mac/) | NTFS drives read and write support. | 💰 | |
-| [Gifox](https://gifox.io/) | GIF recording and sharing. | 💰 | |
-| [Windscribe](https://windscribe.com/) | Free VPN and Ad Block. | | |
+| [CleanShot X](https://cleanshot.com) | GIF recording and sharing. | 💰 | |
 | [Sip](https://sipapp.io/)  | Color picker for macOS. | 💰 | |
 | [LiveHome 3D](https://www.livehome3d.com/) | Home and Interior Design Software | 💰 | |
 | [Ledger Live](https://www.ledger.com/pages/ledger-live) | Companion app for Ledger hardware wallet devices. | | |
 | [Notion](https://www.notion.so/) | The all-in-one workspace for your notes, tasks, wikis, and databases. | | |
-| [Paste](https://pasteapp.me/) | Cloud clipboard history & snippets manager. | 💰 | |
 | [Meta](https://www.nightbirdsevolve.com/meta/) | Advanced Music Tag Editor for macOS. | 💰 | |
-
-### Gaming Apps
-
-| Name | Description | Paid? | Settings |
-| ---------------- | ------------- |:-----:|:--------:|
-| [Steam](http://store.steampowered.com/) | Gaming digital distribution platform. | | |
-| [PS4 Remote Play](https://remoteplay.dl.playstation.net/remoteplay/lang/en/index.html) | Remote play for PlayStation 4. | | |
-
-### Other
-
-| Name | Description | Paid? | Settings |
-| ---------------- | ------------- |:-----:|:--------:|
-| [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) | Photo, image and design editing tool. | 💰 | |
-| [Sketch](https://www.sketchapp.com/) | Digital design toolkit. | 💰 | |
-| [Parallels](https://www.parallels.com/) | Mac & Windows virtualization. | 💰 | |
 | [Cornerstone](https://cornerstone.assembla.com/) | SVN client for macOS. | 💰 | |
 | [The Archive Browser](https://theunarchiver.com/archive-browser) | Browser for archive type files (zip, rar, 7-zip, tar, etc). | 💰 | |
 | [Texpad](https://www.texpad.com/osx) | LaTeX editor. | 💰 | |
