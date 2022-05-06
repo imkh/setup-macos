@@ -238,7 +238,7 @@ $ mongosh # Start a MongoDB shell
 | [Pixelmator Pro](https://www.pixelmator.com/pro/) | Professional image editing tool. | 💰 | |
 | [Parallels](https://www.parallels.com/) | Mac & Windows virtualization. | 💰 | |
 | [IINA](https://iina.io) | Multimedia player. | | |
-| [Discord](https://discordapp.com/) | Voice & text chat app for gaming communities. | | |
+| [Discord](https://discordapp.com/) | Voice & text chat app for gaming communities. | | |†
 | [Reflector](http://www.airsquirrels.com/reflector/) | Android & iOS wireless screen mirroring. | 💰 | |
 | [Tuxera](https://www.tuxera.com/products/tuxera-ntfs-for-mac/) | NTFS drives read and write support. | 💰 | |
 | [CleanShot X](https://cleanshot.com) | GIF recording and sharing. | 💰 | |
@@ -250,6 +250,12 @@ $ mongosh # Start a MongoDB shell
 | [Cornerstone](https://cornerstone.assembla.com/) | SVN client for macOS. | 💰 | |
 | [The Archive Browser](https://theunarchiver.com/archive-browser) | Browser for archive type files (zip, rar, 7-zip, tar, etc). | 💰 | |
 | [Texpad](https://www.texpad.com/osx) | LaTeX editor. | 💰 | |
+| [Leech](https://manytricks.com/leech/) | Lightweight download manager. | 💰 | |
+| [Numi](https://numi.app/) | Beautiful calculator app. | 💰 | |
+| [Optimage](https://optimage.app/) | Advanced image optimization tool. | 💰 | |
+| [SourceCodeSyntaxHighlight](https://github.com/sbarex/SourceCodeSyntaxHighlight) | Quick Look extension for highlight source code files. | | |
+| [QLMarkdown](https://github.com/sbarex/QLMarkdown) | Quick Look extension for Markdown files. | | |
+| [AppCleaner](https://freemacsoft.net/appcleaner/) | Applications uninstaller. | | |
 
 ## Git global configuration
 
