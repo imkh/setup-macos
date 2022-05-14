@@ -76,7 +76,7 @@ $ echo $SHELL # Expected result should be usr/bin/zsh or /bin/zsh
 ### Install Oh-My-Zsh
 
 ```sh
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 ### Set personal custom theme & prompt
@@ -262,7 +262,7 @@ $ mongosh # Start a MongoDB shell
 ### gitignore
 
 ```sh
-$ curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore_global
+$ curl https://raw.githubusercontent.com/github/gitignore/main/Global/macOS.gitignore -o ~/.gitignore_global
 ```
 
 ### gitconfig
