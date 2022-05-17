@@ -276,6 +276,8 @@ $ git config --global core.excludesfile ~/.gitignore_global
 
 ## Set up Git SSH Keys
 
+🆕 With the new 1Password 8, we can generate & store SSH keys directly into 1Password. Follow the [official guide](https://developer.1password.com/docs/ssh/) instead of the instructions below.
+
 ### Official documentation
 
 - [GitHub](https://help.github.com/articles/connecting-to-github-with-ssh/)
